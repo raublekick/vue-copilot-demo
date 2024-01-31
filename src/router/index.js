@@ -20,7 +20,7 @@ const router = createRouter({
     {
       path: '/complete',
       name: 'complete',
-      component: () => import('../views/Complete.vue')
+      component: () => import('../views/CompleteView.vue')
     }
   ]
 })
