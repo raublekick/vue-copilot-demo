@@ -14,6 +14,11 @@ const filter = ref('');
 let sortKey = ref('');
 let sortOrder = ref(1);
 // create a computed property to filter the users
+/**
+ * Computes and returns an array of filtered and sorted users based on the filter and sort criteria.
+ *
+ * @returns {Array} The filtered and sorted users.
+ */
 const filteredUsers = computed(() => {
   return users
     .filter(user => user.name.toLowerCase().includes(filter.value.toLowerCase()))
