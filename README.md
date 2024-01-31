@@ -1,6 +1,6 @@
 # vue-copilot-demo
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a basic demo app with an exercise to try different Copilot functionality to create a working page.
 
 ## Recommended IDE Setup
 
@@ -33,3 +33,26 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Goals
+
+Goal #1
+Create an array of mock users with name and email using the Copilot chat plugin
+
+Goal #2
+Create a table to display the users using a comment
+
+Goal #3
+Add some basic styling (borders and padding) to the table
+
+Goal #4
+Add filtering the users using terminal commands
+
+Goal #5
+Add a new field to the users table
+
+Goal #6
+Use Copilot to explain the computed filter function.
+
+Goal #7
+Use Copilot to document the computed filter function.
