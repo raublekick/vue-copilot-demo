@@ -38,8 +38,8 @@ npm run lint
 
 To start with no context for Copilot to use, delete the following files:
 
-- src/views/CompleteView.vue
-- tests/CompleteView.test.js
+- `src/views/CompleteView.vue`
+- `tests/CompleteView.test.js`
 
 Also remove the following from `src/router/index.js`
 
@@ -52,6 +52,8 @@ Also remove the following from `src/router/index.js`
 ```
 
 ### Goals
+
+For the purposes of this exercise we will be doing everything in the file `src/views/HomeView.vue`
 
 #### Goal #1
 
