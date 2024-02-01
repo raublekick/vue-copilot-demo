@@ -34,6 +34,23 @@ npm run build
 npm run lint
 ```
 
+### Important Note!
+
+To start with no context for Copilot to use, delete the following files:
+
+- src/views/CompleteView.vue
+- tests/CompleteView.test.js
+
+Also remove the following from `src/router/index.js`
+
+```sh
+{
+  path: '/complete',
+  name: 'complete',
+  component: () => import('../views/CompleteView.vue')
+}
+```
+
 ### Goals
 
 #### Goal #1
