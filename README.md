@@ -71,3 +71,7 @@ Use Copilot to refactor the getUserRoles function.
 #### Goal #9
 
 Use Copilot to create a unit test for the entire component.
+
+#### Goal #10
+
+Use Copilot to create a commit message.

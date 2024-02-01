@@ -99,6 +99,11 @@ function getUserRoles(user) {
       <dt>Goal #9</dt>
       <dd>Use Copilot to create a unit test for the entire component.</dd>
     </dl>
+
+    <dl>
+      <dt>Goal #10</dt>
+      <dd>Use Copilot to create a commit message.</dd>
+    </dl>
   </main>
 
   <hr />
