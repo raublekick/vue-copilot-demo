@@ -104,6 +104,11 @@ function getUserRoles(user) {
       <dt>Goal #10</dt>
       <dd>Use Copilot to create a commit message.</dd>
     </dl>
+
+    <dl>
+      <dt>Goal #11</dt>
+      <dd>Use Copilot to create an entire new page for listing proposals.</dd>
+    </dl>
   </main>
 
   <hr />

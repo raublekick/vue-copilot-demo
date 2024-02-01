@@ -75,3 +75,7 @@ Use Copilot to create a unit test for the entire component.
 #### Goal #10
 
 Use Copilot to create a commit message.
+
+### Goal #11
+
+Use Copilot to create an entire new page for listing proposals.
