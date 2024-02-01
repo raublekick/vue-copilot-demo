@@ -44,6 +44,10 @@ function sort(key) {
     sortOrder.value = 1;
   }
 }
+
+function getUserRoles(user) {
+  return user.roles.map(role => role.name);
+}
 </script>
 
 
@@ -84,6 +88,16 @@ function sort(key) {
     <dl>
       <dt>Goal #7</dt>
       <dd>Use Copilot to document the computed filter function.</dd>
+    </dl>
+
+    <dl>
+      <dt>Goal #8</dt>
+      <dd>Use Copilot to refactor the getUserRoles function.</dd>
+    </dl>
+
+    <dl>
+      <dt>Goal #9</dt>
+      <dd>Use Copilot to create a unit test for the entire component.</dd>
     </dl>
   </main>
 
